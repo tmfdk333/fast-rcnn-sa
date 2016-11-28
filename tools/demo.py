@@ -153,4 +153,5 @@ if __name__ == '__main__':
     print 'Demo for data/demo/001551.jpg'
     demo(net, '001551', ('sofa', 'tvmonitor'))
 
-    plt.show()
+    #plt.show()
+    plt.savefig("output.jpg")
